@@ -112,10 +112,15 @@ public class TouchEventActivity extends AppCompatActivity {
         if(keyCode == KeyEvent.KEYCODE_BACK){
             Toast.makeText(this, "시스템 [Back] 버튼이 눌렸습니다.",
                     Toast.LENGTH_SHORT).show();
+            onBackPressed();
 
             return true;
         }
 
         return false;
+    }
+
+    public void onClickReset(View view){
+        tv_info.setText("");
     }
 }

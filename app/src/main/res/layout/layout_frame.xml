@@ -14,8 +14,7 @@
         android:background="@color/colorPrimary"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
-        android:onClick="onBtnChangeClick"
-        android:visibility="gone"/>
+        android:onClick="onBtnChangeClick"/>
 
     <ImageView
         android:id="@+id/iv_img"
@@ -23,8 +22,7 @@
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="80dp"
-        android:src="@drawable/dog"
-        android:visibility="gone"/>
+        android:src="@drawable/dog"/>
 
     <ImageView
         android:id="@+id/iv_img2"
@@ -33,41 +31,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="80dp"
         android:scaleType="center"
-        android:src="@drawable/yosi"
-        android:visibility="gone"/>
-
-    <Button
-        android:id="@+id/btn_go_scrollView"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="스크롤뷰"
-        android:textColor="@color/fontWhite"
-        android:background="@color/colorPrimary"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="300dp"
-        android:onClick="onClickGoScrollView"
-        android:visibility="gone"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginBottom="250dp"
-        android:text="터치 이벤트"
-        android:background="@drawable/border_drawable"
-        android:backgroundTint="#00000000"
-        android:backgroundTintMode="add"
-        android:onClick="onClickGoTouchEventView"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginBottom="100dp"
-        android:text="버튼"
-        android:background="@drawable/rect_drawable"
-        android:backgroundTint="#00000000"
-        android:backgroundTintMode="add"
-        android:onClick="onClickGoOriView"/>
+        android:src="@drawable/yosi"/>
 
 </FrameLayout>

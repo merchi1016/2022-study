@@ -12,7 +12,6 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private Button btn_change;
-    private Button btn_scroll;
 
     private ImageView iv_img;
     private ImageView iv_img2;
@@ -23,14 +22,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_frame);
+        setContentView(R.layout.activity_main);
 
         init();
     }
 
     private void init() {
         btn_change = findViewById(R.id.btn_change_Img);
-        btn_scroll = findViewById(R.id.btn_go_scrollView);
         iv_img = findViewById(R.id.iv_img);
         iv_img2 = findViewById(R.id.iv_img2);
     }
@@ -51,6 +49,11 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void onClickGoFrame(View view){
+        Intent intent = new Intent(getApplicationContext(), FrameActivity.class);
+        startActivity(intent);
+    }
+
     public void onClickGoScrollView(View view){
         Intent intent = new Intent(getApplicationContext(), ScrollViewActivity.class);
         startActivity(intent);
@@ -65,4 +68,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), OrientationActivity.class);
         startActivity(intent);
     }
+
+    public void onClickGoToastView(View view){
+        Intent intent = new Intent(getApplicationContext(), ToastActivity.class);
+        startActivity(intent);
+    }
+
 }

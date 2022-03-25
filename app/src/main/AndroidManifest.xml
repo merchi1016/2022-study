@@ -9,19 +9,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ExtraMenuActivity"></activity>
+        <activity android:name=".ExtraActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FrameActivity"/>
-        <activity android:name=".ScrollViewActivity"/>
-        <activity android:name=".TouchEventActivity"/>
-        <activity android:name=".OrientationActivity"
+        <activity android:name=".FrameActivity" />
+        <activity android:name=".ScrollViewActivity" />
+        <activity android:name=".TouchEventActivity" />
+        <activity
+            android:name=".OrientationActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".ToastActivity"/>
+            android:screenOrientation="portrait" />
+        <activity android:name=".ToastActivity" />
+        <activity android:name=".IntentActivity" />
+        <activity android:name=".InflaterActivity" />
+        <activity
+            android:name=".MenuActivity"
+            android:label="메뉴 액티비티"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity android:name=".IntentActionActivity" />
     </application>
 
 </manifest>

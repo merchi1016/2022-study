@@ -6,51 +6,92 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
-    <Button
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Frame Layout 예제"
-        android:background="@color/colorAccent"
-        android:onClick="onClickGoFrame"
-        android:textAllCaps="false"/>
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Frame Layout 예제"
+                android:background="@color/colorAccent"
+                android:onClick="onClickGoFrame"
+                android:textAllCaps="false"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ScrollView 예제"
-        android:layout_marginTop="30dp"
-        android:background="@color/colorAccent"
-        android:onClick="onClickGoScrollView"
-        android:textAllCaps="false"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ScrollView 예제"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorAccent"
+                android:onClick="onClickGoScrollView"
+                android:textAllCaps="false"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TouchEventView 예제"
-        android:layout_marginTop="30dp"
-        android:background="@color/colorAccent"
-        android:onClick="onClickGoTouchEventView"
-        android:textAllCaps="false"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TouchEventView 예제"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorAccent"
+                android:onClick="onClickGoTouchEventView"
+                android:textAllCaps="false"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="화면전환 뷰 예제"
-        android:layout_marginTop="30dp"
-        android:background="@color/colorAccent"
-        android:onClick="onClickGoOriView"
-        android:textAllCaps="false"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="화면전환 뷰 예제"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorAccent"
+                android:onClick="onClickGoOriView"
+                android:textAllCaps="false"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ToastView 예제"
-        android:layout_marginTop="30dp"
-        android:background="@color/colorAccent"
-        android:onClick="onClickGoToastView"
-        android:textAllCaps="false"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ToastView 예제"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorAccent"
+                android:onClick="onClickGoToastView"
+                android:textAllCaps="false"/>
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LayoutInflater 예제"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorAccent"
+                android:onClick="onClickGoInflater"
+                android:textAllCaps="false"/>
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="여러 화면 전환하기"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorAccent"
+                android:onClick="onClickGoIntent"
+                android:textAllCaps="false"/>
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="인텐트 액션 예제"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorAccent"
+                android:onClick="onClickGoIntentAction"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="부가 데이터 넣기 예제"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorAccent"
+                android:onClick="onClickGoIntentExtra"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

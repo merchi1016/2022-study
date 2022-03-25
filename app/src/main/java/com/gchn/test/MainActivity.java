@@ -74,4 +74,24 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onClickGoInflater(View view){
+        Intent intent = new Intent(getApplicationContext(), InflaterActivity.class);
+        startActivity(intent);
+    }
+
+    public void onClickGoIntent(View view){
+        Intent intent = new Intent(getApplicationContext(), IntentActivity.class);
+        startActivity(intent);
+    }
+
+    public void onClickGoIntentAction(View view){
+        Intent intent = new Intent(getApplicationContext(), IntentActionActivity.class);
+        startActivity(intent);
+    }
+
+    public void onClickGoIntentExtra(View view){
+        Intent intent = new Intent(getApplicationContext(), ExtraActivity.class);
+        startActivity(intent);
+    }
+
 }

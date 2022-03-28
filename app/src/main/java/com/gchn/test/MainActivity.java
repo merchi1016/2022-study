@@ -94,4 +94,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onClickGoLifeCycle(View view){
+        Intent intent = new Intent(getApplicationContext(), LifeCycleActivity.class);
+        startActivity(intent);
+    }
 }

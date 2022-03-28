@@ -92,6 +92,15 @@
                 android:background="@color/colorAccent"
                 android:onClick="onClickGoIntentExtra"
                 android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="액티비티 수명주기 예제"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorAccent"
+                android:onClick="onClickGoLifeCycle"
+                android:textAllCaps="false"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

@@ -98,4 +98,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), LifeCycleActivity.class);
         startActivity(intent);
     }
+
+    public void onClickGoThread(View view){
+        Intent intent = new Intent(getApplicationContext(), ThreadActivity.class);
+        startActivity(intent);
+    }
 }

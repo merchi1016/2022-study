@@ -2,4 +2,6 @@
     <string name="app_name">Test</string>
     <string name="btn_change_Image">이미지 바꾸기</string>
     <string name="btn_visible_Gone">이미지 완전 숨기기</string>
+    <string name="running_thread">스레드가 실행중입니다.</string>
+    <string name="stop_thread">스레드를 멈췄습니다.</string>
 </resources>

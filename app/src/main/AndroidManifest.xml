@@ -34,6 +34,7 @@
             android:label="메뉴 액티비티"
             android:theme="@style/Theme.AppCompat.Dialog" />
         <activity android:name=".IntentActionActivity" />
+        <activity android:name=".ThreadActivity"/>
     </application>
 
 </manifest>

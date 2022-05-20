@@ -35,6 +35,7 @@
             android:theme="@style/Theme.AppCompat.Dialog" />
         <activity android:name=".IntentActionActivity" />
         <activity android:name=".ThreadActivity"/>
+        <activity android:name=".DelayHandlerActivity"/>
     </application>
 
 </manifest>

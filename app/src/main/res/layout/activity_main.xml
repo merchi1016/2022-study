@@ -110,6 +110,15 @@
                 android:background="@color/colorAccent"
                 android:onClick="onClickGoThread"
                 android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="핸들러 지연 예제"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorAccent"
+                android:onClick="onClickGoDelayHandler"
+                android:textAllCaps="false"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

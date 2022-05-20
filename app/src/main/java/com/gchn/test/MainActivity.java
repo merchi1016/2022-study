@@ -103,4 +103,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), ThreadActivity.class);
         startActivity(intent);
     }
+
+    public void onClickGoDelayHandler(View view){
+        Intent intent = new Intent(getApplicationContext(), DelayHandlerActivity.class);
+        startActivity(intent);
+    }
 }
